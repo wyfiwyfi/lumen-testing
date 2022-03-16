@@ -1,6 +1,6 @@
 <?php
 
-namespace AlbertCht\Lumen\Testing\Concerns;
+namespace WyfiWyfi\Lumen\Testing\Concerns;
 
 trait InteractsWithAuthentication
 {

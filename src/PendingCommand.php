@@ -1,6 +1,6 @@
 <?php
 
-namespace AlbertCht\Lumen\Testing;
+namespace WyfiWyfi\Lumen\Testing;
 
 use Illuminate\Console\OutputStyle;
 use Illuminate\Contracts\Console\Kernel;

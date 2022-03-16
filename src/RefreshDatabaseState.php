@@ -1,6 +1,6 @@
 <?php
 
-namespace AlbertCht\Lumen\Testing;
+namespace WyfiWyfi\Lumen\Testing;
 
 class RefreshDatabaseState
 {

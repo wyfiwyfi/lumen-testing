@@ -1,6 +1,6 @@
 <?php
 
-namespace AlbertCht\Lumen\Testing\Constraints;
+namespace WyfiWyfi\Lumen\Testing\Constraints;
 
 use ReflectionClass;
 use PHPUnit\Framework\Constraint\Constraint;

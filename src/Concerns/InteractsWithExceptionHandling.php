@@ -1,8 +1,8 @@
 <?php
 
-namespace AlbertCht\Lumen\Testing\Concerns;
+namespace WyfiWyfi\Lumen\Testing\Concerns;
 
-use Exception;
+use Throwable;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Symfony\Component\Console\Application as ConsoleApplication;
@@ -91,11 +91,11 @@ trait InteractsWithExceptionHandling
                 /**
                  * Report the given exception.
                  *
-                 * @param  \Exception  $e
+                 * @param  \Throwable  $e
                  *
                  * @return void
                  */
-                public function report(Exception $e)
+                public function report(Throwable $e)
                 {
                     //
                 }
@@ -110,7 +110,7 @@ trait InteractsWithExceptionHandling
                  *
                  * @throws \Symfony\Component\HttpKernel\Exception\NotFoundHttpException|\Exception
                  */
-                public function render($request, Exception $e)
+                public function render($request, Throwable $e)
                 {
                     if ($e instanceof NotFoundHttpException) {
                         throw new NotFoundHttpException("{$request->method()} {$request->url()}",
@@ -130,11 +130,11 @@ trait InteractsWithExceptionHandling
                  * Render the exception for the console.
                  *
                  * @param  \Symfony\Component\Console\Output\OutputInterface
-                 * @param  \Exception  $e
+                 * @param  \Throwable  $e
                  *
                  * @return void
                  */
-                public function renderForConsole($output, Exception $e)
+                public function renderForConsole($output, Throwable $e)
                 {
                     (new ConsoleApplication)->renderException($e, $output);
                 }
@@ -142,11 +142,11 @@ trait InteractsWithExceptionHandling
                 /**
                  * Determine if the exception should be reported.
                  *
-                 * @param  \Exception  $e
+                 * @param  \Throwable  $e
                  *
                  * @return bool
                  */
-                public function shouldReport(Exception $e)
+                public function shouldReport(Throwable $e)
                 {
                     return false;
                 }

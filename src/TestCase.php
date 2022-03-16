@@ -1,6 +1,6 @@
 <?php
 
-namespace AlbertCht\Lumen\Testing;
+namespace WyfiWyfi\Lumen\Testing;
 
 use Illuminate\Http\Request;
 use Laravel\Lumen\Testing\TestCase as LumenTestCase;

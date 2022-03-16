@@ -1,6 +1,6 @@
 <?php
 
-namespace AlbertCht\Lumen\Testing;
+namespace WyfiWyfi\Lumen\Testing;
 
 use Closure;
 use Illuminate\Support\Arr;
