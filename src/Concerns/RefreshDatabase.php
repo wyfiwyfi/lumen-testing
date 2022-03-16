@@ -2,7 +2,7 @@
 
 namespace WyfiWyfi\Lumen\Testing\Concerns;
 
-use AlbertCht\Lumen\Testing\RefreshDatabaseState;
+use WyfiWyfi\Lumen\Testing\RefreshDatabaseState;
 
 trait RefreshDatabase
 {

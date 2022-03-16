@@ -4,7 +4,7 @@ namespace WyfiWyfi\Lumen\Testing\Concerns;
 
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
-use AlbertCht\Lumen\Testing\TestResponse;
+use WyfiWyfi\Lumen\Testing\TestResponse;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 use Symfony\Component\HttpFoundation\File\UploadedFile as SymfonyUploadedFile;
 

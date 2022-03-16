@@ -9,7 +9,7 @@ use Illuminate\Support\Carbon;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Traits\Macroable;
 use PHPUnit\Framework\Assert as PHPUnit;
-use AlbertCht\Lumen\Testing\Constraints\SeeInOrder;
+use WyfiWyfi\Lumen\Testing\Constraints\SeeInOrder;
 
 /**
  * @mixin \Illuminate\Http\Response

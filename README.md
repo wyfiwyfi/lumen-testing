@@ -20,7 +20,7 @@ A testing suite for Lumen like Laravel does.
 composer require --dev albertcht/lumen-testing
 ```
 
-* Make your test case extend `AlbertCht\Lumen\Testing\TestCase`
+* Make your test case extend `WyfiWyfi\Lumen\Testing\TestResponseTesting\TestCase`
 
 You're all done! Enjoy your testing like in Laravel!
 
@@ -28,11 +28,11 @@ You're all done! Enjoy your testing like in Laravel!
 
 There are some traits you can use in your test case (including original ones in Lumen):
 
-* `AlbertCht\Lumen\Testing\Concerns\RefreshDatabase`
-* `AlbertCht\Lumen\Testing\Concerns\WithFaker`
-* `AlbertCht\Lumen\Testing\Concerns\InteractsWithRedis`
-* `AlbertCht\Lumen\Testing\Concerns\InteractsWithConsole`
-* `AlbertCht\Lumen\Testing\Concerns\InteractsWithContainer`
+* `WyfiWyfi\Lumen\Testing\TestResponseTesting\Concerns\RefreshDatabase`
+* `WyfiWyfi\Lumen\Testing\TestResponseTesting\Concerns\WithFaker`
+* `WyfiWyfi\Lumen\Testing\TestResponseTesting\Concerns\InteractsWithRedis`
+* `WyfiWyfi\Lumen\Testing\TestResponseTesting\Concerns\InteractsWithConsole`
+* `WyfiWyfi\Lumen\Testing\TestResponseTesting\Concerns\InteractsWithContainer`
 * `Laravel\Lumen\Testing\DatabaseMigrations`
 * `Laravel\Lumen\Testing\DatabaseTransactions`
 * `Laravel\Lumen\Testing\WithoutMiddleware`

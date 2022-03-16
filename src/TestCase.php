@@ -4,7 +4,7 @@ namespace WyfiWyfi\Lumen\Testing;
 
 use Illuminate\Http\Request;
 use Laravel\Lumen\Testing\TestCase as LumenTestCase;
-use AlbertCht\Lumen\Testing\Concerns\RefreshDatabase;
+use WyfiWyfi\Lumen\Testing\Concerns\RefreshDatabase;
 
 abstract class TestCase extends LumenTestCase
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace AlbertCht\Lumen\Testing\Tests;
+namespace WyfiWyfi\Lumen\Testing\TestResponseTesting\Tests;
 
 use JsonSerializable;
 use Illuminate\Http\Response;
 use PHPUnit\Framework\TestCase;
 use Illuminate\Contracts\View\View;
 use Illuminate\Filesystem\Filesystem;
-use AlbertCht\Lumen\Testing\TestResponse;
+use WyfiWyfi\Lumen\Testing\TestResponse;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class FoundationTestResponseTest extends TestCase

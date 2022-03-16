@@ -1,6 +1,6 @@
 <?php
 
-namespace  AlbertCht\Lumen\Testing\Constraints;
+namespace  WyfiWyfi\Lumen\Testing\Constraints;
 
 use Illuminate\Database\Connection;
 use PHPUnit\Framework\Constraint\Constraint;

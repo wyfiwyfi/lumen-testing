@@ -2,7 +2,7 @@
 
 namespace WyfiWyfi\Lumen\Testing\Concerns;
 
-use AlbertCht\Lumen\Testing\Constraints\SoftDeletedInDatabase;
+use WyfiWyfi\Lumen\Testing\Constraints\SoftDeletedInDatabase;
 
 trait InteractsWithDatabase
 {
